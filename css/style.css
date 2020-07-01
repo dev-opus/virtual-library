@@ -34,3 +34,33 @@ main {
 footer {
 	flex-shrink: 0;
 }
+
+/* 
+	============================================================================================
+	============================================================================================
+*/
+
+.header {
+	display: flex;
+	justify-content: space-between;
+
+	background-color: rgba(32, 178, 171, 0.89);
+	color: #252e32;
+
+	border-radius: 0.5em;
+	padding: 0 15px;
+}
+
+.logo {
+	margin-top: 0.8em;
+}
+
+.library-icon {
+	width: 120px;
+	height: 120px;
+}
+
+.title {
+	font-weight: normal;
+	font-size: 2.5rem;
+}
