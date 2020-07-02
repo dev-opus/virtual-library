@@ -253,6 +253,9 @@ footer {
 .book-container .fourth {
 	text-align: center;
 	margin-left: 2.813em;
+
+	margin-top: 0;
+	padding: 1.1em;
 }
 
 .book-container .fifth {
