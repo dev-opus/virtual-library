@@ -292,3 +292,68 @@ footer {
 	background-color: red;
 	color: #fff;
 }
+
+/* 
+
+*/
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+	.modal-container {
+		left: 20%;
+	}
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 568px) {
+	.modal-container {
+		left: 20%;
+	}
+
+	.book-holder {
+		width: 100%;
+	}
+
+	.book-header > div {
+		font-size: 0.8em;
+	}
+
+	.book-container div {
+		padding: 0.5em 0 0.5em 0.3em;
+		font-size: 0.8em;
+	}
+
+	.book-container .first {
+		text-align: justify;
+	}
+
+	.book-container .second {
+		margin-left: 0;
+		text-align: center;
+	}
+
+	.book-container .third {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.book-container .fourth {
+		text-align: center;
+		margin-left: 0;
+	}
+
+	.book-container .fifth {
+		margin-left: 0px;
+	}
+
+	.delete {
+		width: 1.875em;
+		height: 1.875em;
+	}
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+	.modal-container {
+		top: 5%;
+		left: 38%;
+		width: 17.45em;
+	}
+}
