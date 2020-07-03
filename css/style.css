@@ -224,30 +224,29 @@ footer {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 
-	border-radius: .5em;
+	border-radius: 0.5em;
 
-	box-shadow: 0 .188em .375em rgba(0,0,0,0.16), 0 .188em .375em rgba(0,0,0,0.23);
-
+	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 .book-container div {
-	margin-top: .2em;
+	margin-top: 0.2em;
 	text-transform: capitalize;
 
-	padding: .938em 0 .938em .313em;
+	padding: 0.938em 0 0.938em 0.313em;
 }
 
 .book-container .first {
 	text-align: justify;
 }
 
-.book-container .second {	
+.book-container .second {
 	margin-left: 1.875em;
 }
 
-.book-container .third{
+.book-container .third {
 	text-align: center;
-	margin-right: .938em;
+	margin-right: 0.938em;
 }
 
 .book-container .fourth {
@@ -260,9 +259,9 @@ footer {
 
 .book-container .fifth {
 	text-align: center;
-	margin-left: 7.500em;
-	
-	padding-top: .813em;
+	margin-left: 7.5em;
+
+	padding-top: 0.813em;
 	margin-top: 0;
 }
 
@@ -276,7 +275,7 @@ footer {
 }
 
 .delete:active {
-	transform: scale(.8);
+	transform: scale(0.8);
 }
 
 /* 
