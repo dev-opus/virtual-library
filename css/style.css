@@ -225,6 +225,7 @@ footer {
 	grid-template-columns: repeat(5, 1fr);
 
 	border-radius: 0.5em;
+	background-color: #fff;
 
 	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
@@ -291,4 +292,110 @@ footer {
 .not-read {
 	background-color: red;
 	color: #fff;
+}
+
+/* 
+
+*/
+
+@media only screen and (min-device-width: 411px) and (max-device-width: 667px) {
+	.modal-container {
+		left: 20%;
+	}
+
+	.book-holder {
+		width: 100%;
+	}
+
+	.book-header > div {
+		font-size: 0.8em;
+	}
+
+	.book-container div {
+		padding: 0.5em 0 0.5em 0.3em;
+		font-size: 0.8em;
+	}
+
+	.book-container .first {
+		text-align: justify;
+	}
+
+	.book-container .second {
+		margin-left: 0;
+		text-align: center;
+	}
+
+	.book-container .third {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.book-container .fourth {
+		text-align: center;
+		margin-left: 0;
+	}
+
+	.book-container .fifth {
+		margin-left: 0px;
+	}
+
+	.delete {
+		width: 1.875em;
+		height: 1.875em;
+	}
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 568px) {
+	.modal-container {
+		left: 20%;
+	}
+
+	.book-holder {
+		width: 100%;
+	}
+
+	.book-header > div {
+		font-size: 0.8em;
+	}
+
+	.book-container div {
+		padding: 0.5em 0 0.5em 0.3em;
+		font-size: 0.8em;
+	}
+
+	.book-container .first {
+		text-align: justify;
+	}
+
+	.book-container .second {
+		margin-left: 0;
+		text-align: center;
+	}
+
+	.book-container .third {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.book-container .fourth {
+		text-align: center;
+		margin-left: 0;
+	}
+
+	.book-container .fifth {
+		margin-left: 0px;
+	}
+
+	.delete {
+		width: 1.875em;
+		height: 1.875em;
+	}
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+	.modal-container {
+		top: 5%;
+		left: 38%;
+		width: 17.45em;
+	}
 }
