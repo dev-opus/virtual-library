@@ -170,6 +170,9 @@ footer {
 	text-transform: capitalize;
 }
 
+.modal-content input {
+	font-size: 100%;
+}
 .modal-content p,
 .modal-content input {
 	margin-top: 0;
