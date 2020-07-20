@@ -32,11 +32,13 @@ let bookIndex;
 
 const bookArray = [];
 
-function Book(title, authour, pages, readStatus) {
-	this.title = title;
-	this.authour = authour;
-	this.pages = pages;
-	this.readStatus = readStatus;
+class Book {
+	constructor(title, authour, pages, readStatus) {
+		this.title = title;
+		this.authour = authour;
+		this.pages = pages;
+		this.readStatus = readStatus;
+	}
 }
 
 function addBookToArray() {
